@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>해양수산부 통계시스템</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="format-detection" content="telephone=no, address=no, email=no">
+        <meta name="description" content="해양수산부 모바일 통계시스템">
+        <link rel="shortcut icon" href="../public/images/favicon.ico">
+        <link rel="stylesheet" href="../public/css/reset.css" type="text/css">
+        <link rel="stylesheet" href="../public/css/all.css" type="text/css">
+        <link rel="stylesheet" href="../public/lib/bootstrap-3.3.7-dist/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="../public/css/layout.css?var=20180779" type="text/css">
+        <link rel="stylesheet" href="../public/css/template.css?var=20180719" type="text/css">
+
+        <script type="text/javascript" src="../public/lib/jquery-1.12.1.min.js"></script>
+        <script type="text/javascript" src="../public/lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    </head>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //header include
+            $("#header").load("../view/include/header.html")
+            $("#footer").load("../view/include/footer.html")
+        });
+    </script>
+
+	<body>
+		<div class="wrap">
+			<div class="skip_navigation">
+				<p>
+					<a href="#contents" title="본문 컨텐츠로 이동">» 메뉴 건너 뛰기</a>
+				</p>
+			</div>
+
+			<!-- header S -->
+			<header id="header">
+				<!-- TODO: 개발언어에 맞게 include 수정 -->
+			</header>
+			<!-- header E -->
+
+			<!-- contents S -->
+			<div id="contents">
+				<div id="breadcrumbs">
+					<ol class="breadcrumb">
+						<li>
+							<a href="javascript:history.go(-1)">이전</a>
+						</li>
+						<li class="active">분야별 통계</li>
+					</ol>
+				</div>
+
+				<div class="wrap_contents">
+					<h2>분야별 통계</h2>
+					<div class="wrap_table">
+						<table summary="분야별 선택 테이블입니다" class="table table_step table-striped">
+							<thead>
+								<tr>
+									<th>분야별 선택</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<a href="../view/statistics_sector02.html" title="해양정책 상세분야 선택으로 이동">해양정책</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="" title="수산정책 상세분야 선택으로 이동">수산정책</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="" title="해운물류 상세분야 선택으로 이동">해운물류</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="" title="해사안전 상세분야 선택으로 이동">해사안전</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="" title="항만 상세분야 선택으로 이동">항만</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="" title="기타 상세분야 선택으로 이동">기타</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<!-- contents E -->
+
+			<!-- footer S -->
+			<footer id="footer">
+				<!-- TODO: 개발언어에 맞게 include 수정 -->
+			</footer>
+			<!-- footer E -->
+		</div>
+	</body>
+</html>

@@ -1,0 +1,128 @@
+<div class="logo">
+    <a href="/" title="메인화면 바로가기">
+        <img src="../public/images/bi.svg" alt="해양수산부 통계시스템">
+    </a>
+</div>
+
+<div class="top_btn">
+    <ul>
+        <li class="search">
+            <!-- <button type="button" class="focus" data-target="#searchLayer" data-toggle="collapse">
+                <img src="/public/images/btn_search.svg" alt="통계 검색버튼">
+            </button> -->
+            <a href="../view/search_detail.html" class="focus">
+                <img src="../public/images/btn_search.svg" alt="통계 검색버튼">
+            </a>
+        </li>
+        <li class="menu_toggle">
+            <button type="button" class="slide-menu-control" data-target="sideMenu" data-action="toggle">
+                <img src="../public/images/menu.svg" alt="전체 메뉴버튼">
+            </button>
+        </li>
+    </ul>
+</div>
+
+<!-- side menu S -->
+<nav class="slide-menu" id="sideMenu">
+    <div class="nav_header">
+        <div class="btn_home_side">
+            <a href="/" title="메인화면 바로가기">
+                <img src="../public/images/icon_home.jpg" alt="홈 아이콘"> HOME
+            </a>
+        </div>
+
+        <div class="btn_close_side">
+            <button type="button" class="slide-menu-control" data-action="close">
+                <img src="../public/images/btn_close.svg" alt="메뉴닫기버튼">
+            </button>
+        </div>
+
+        <h2>해양수산부 통계시스템</h2>
+    </div>
+
+    <ul>
+        <li>
+            <a href="../view/information_use.html" title="이용안내 바로가기">
+                <span>이용안내</span>
+                <i class="fas fa-angle-right"></i>
+            </a>
+        </li>
+        <li>
+            <a href="../view/department_charge.html" title="담당부서 안내 바로가기">
+                <span>담당부서 안내</span>
+                <i class="fas fa-angle-right"></i>
+            </a>
+        </li>
+        <li>
+            <a href="../view/statistics_sector.html" title="분야별 통계 바로가기">
+                <span>분야별통계</span>
+                <i class="fas fa-angle-right"></i>
+            </a>
+        </li>
+        <li>
+            <a href="../view/country_approval_statistics.html" title="국가승인 통계 바로가기">
+                <span>국가승인통계</span>
+                <i class="fas fa-angle-right"></i>
+            </a>
+        </li>
+        <li>
+            <a href="../view/major_administrative_statistics.html" title="주요행정 통계 바로가기">
+                <span>주요행정통계</span>
+                <i class="fas fa-angle-right"></i>
+            </a>
+        </li>
+        <li>
+            <a href="../view/e_Country_index.html" title="e-나라지표 바로가기">
+                <span>e-나라지표</span>
+                <i class="fas fa-angle-right"></i>
+            </a>
+        </li>
+        <li>
+            <a href="../view/statistical_description.html" title="통계설명(메타) 바로가기">
+                <span>통계설명(메타)</span>
+                <i class="fas fa-angle-right"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+<!-- side menu E -->
+
+<!-- gnb S -->
+<nav class="gnb">
+    <ul>
+        <li>
+            <a href="../view/information_use.html" title="이용안내 바로가기">이용안내</a>
+        </li>
+        <li>
+            <a href="../view/statistics_sector.html" title="분야별통계 바로가기">분야별통계</a>
+        </li>
+        <li>
+            <a href="../view/country_approval_statistics.html" title="국가승인 통계 바로가기">국가승인통계</a>
+        </li>
+        <li>
+            <a href="../view/major_administrative_statistics.html" title="주요행정 통계 바로가기">주요행정통계</a>
+        </li>
+        <li>
+            <a href="../view/e_Country_index.html" title="e-나라지표 바로가기">e-나라지표</a>
+        </li>
+    </ul>
+</nav>
+<!-- gnb E -->
+
+<script type="text/javascript" src="../public/lib/side-menu/slide-menu.js"></script>
+
+<script>
+    $(document).ready(function () {
+        //메인 리스트 아이콘 토글
+        $('.nowrap').click(function () {
+            $('i', this).toggleClass('fa-angle-right fa-angle-down');
+        });
+
+        // 사이드메뉴
+        var menuLeft = $('#sideMenu').slideMenu({
+            position: 'left',
+            submenuLinkAfter: ' >',
+            backLinkBefore: '< '
+        });
+    });
+</script>

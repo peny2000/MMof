@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 766.44 700.256">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #f1f8ff;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: url(#pattern);
+      }
+
+      .cls-5 {
+        fill: url(#pattern-2);
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-8 {
+        fill: rgba(0,0,0,0);
+        stroke: #d5d5d5;
+      }
+
+      .cls-13, .cls-9 {
+        fill: none;
+      }
+
+      .cls-10 {
+        fill: #666;
+        font-size: 18px;
+        font-family: NanumGothicLight, NanumGothic;
+      }
+
+      .cls-11 {
+        fill: #062f43;
+        font-size: 36px;
+        font-family: NanumSquareB, NanumSquare;
+      }
+
+      .cls-12 {
+        font-family: NanumSquareL, NanumSquare;
+      }
+
+      .cls-13, .cls-15 {
+        stroke: #f1f8ff;
+      }
+
+      .cls-14 {
+        fill: #dadde4;
+      }
+
+      .cls-15 {
+        fill: #40b9e3;
+        stroke-width: 2.261px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="사각형_23" data-name="사각형 23" class="cls-1" width="640" height="146" transform="translate(416.028 249.524) rotate(30)"/>
+    </clipPath>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 78 68">
+      <image width="78" height="68" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAABECAYAAAAvMQN7AAAF6UlEQVR4Ae1c62scVRQ/5+40s3e7iY2t9VEo9kP60FQaDIoVWtSqqIgfRMQPKgoKCoKI+EJUBBWfbfW/EUVFP4goioqirSilQqFqY7Jzz2yavUdOOombbHZ2ZnZeu835kpl7zzn3nN/+7s5kMr8AM0MZjZnRGPOB/CxjfaUFjogeNMYwEd2/DlxEBJi5bow5KcDJTzmPGJqbm8ptpRgLGWOeA4BtQcg2Y8wzwXFpDOU7DrE8XyNEdDkz/wwA1TaUfADYVavVTrSNFXpYOsYx81urQBOABMR3CkVq1eKlYhwRHWDmz1bVuHTKiHhQa/15cF6olYZxzKyY+UgIGvIhHxa/EJ/cpkpRhHRrjHkYAKZ6dH617/sP9fDJZboUW5WZx4joVwC4OELXp7TWuxBxNoJvZi6lYBwRvRgRNAHiEiJ6ITNEIiYunHG+709Ya38AADdizeLWVEpdWa1Wf4sRk6pr4Yyz1srtRxzQBADXWlvo7UmhjCOim5j5o6RUQMQbtdafJI3vJ64wxjGzAwBhtx89+2Lmo8xc6emYgUNhwBljHmHmyT572it5+syRKLyQrXrmzJlNruseA4AtiapeGXS62WzuHB8fn1k5nO1ZIYxzXfeVlEATdC5yXfelbGHqzJ4745rN5u5Wq/U9AGzoLCfxyFml1N5qtfpL4gwxA3NnnLX23ZRBk5Y3BHlzs1yB8zzvNma+PaPu7mg0GrdmlLsjbW7AMfMGRHyvo4IUBxBRnp7IbU7mlhtwRPQYAOzOsiNE3ENEj2e5xlLuXC4Os7Ozmx3HOQ4Am4J1s7R/FhYWdo6Njf2d5SK5MM5xnFdzAk2wutBxHLndydQyZ9zc3NxkpVL5FgBy+e4J0FpotVpTo6OjPwbnqVvmjFNKHc4ZNOnLUUplenuSKXCe592FiIdS/7gjJETEWzzPuzOCayKXzLYqM7tEJA8oJxJVlk7QMa31JCLOp5Pu/yyZMY6InigYNOlyIqgjdcuEcXNzc1uVUscQcSz1iuMn/LfVak2Mjo6ejh/aPSITxjmO81pJQJPOL5B6ukOQbCZ1xjUajX1KqW/yuGLHaLllrZ2u1+vfxYgJdU2dcUopeRyeet7QLnpPVpRSqf6enGqDxph7AOBg7z4K8bjBGHN3WiuntlWZuUpEPwHAjrSKyyDP71rrKxBRXhvry1JjnO/7T5UcNOl3BxE92RdiQXAqjPM87zJElMfWpXvlNOiz3RrW2ol6vX6qfTDucVqMe31AQBN86oj4RlygVvv3zTjP86YR8Sth7+rkJT63zHztxo0bv05aY1+MEw0CIr4/YKAJVgoRj/SjoegLOCK6DwCuS/qpFRx3PRHdm7SGxFuVmWtEJG+Hb0+6eAniTmit9yCiiVtLYsYF2oNBBk2w2u77/tNxQRP/RIwzxghgwrZakkVLFiNsEw3FyTh1JWWcXM6HATTBSvp4Mw5o4hubccaY/QDwxQBeScOwEQnl/lqt9mWYU/tcLMYFl++jQwbaIoGkrzi3J7GA833/AQCYbkd+iI6vCfqLZJG3qkgfAy3CpZEyD6bTn1rr3YjY6FV+ZMYZY54fctAEK5F4PtsLNJmPxDgi2sHM8qytXQoZJf8g+vjy8o7W+o+w4iMxrosUMizvIM9Vg35DrSfjiOggM38ammUIJxHxQJjEM5RxoiHoIYUcQsjOtRRoKLri03VCgo0xInHcdy7VeWdTgRR0Teu6VQMppGgRtq4ZeX4MdpV4dmUcEYl24HwGTaghEk+RhHbYmoxLKIXsSD4kAyLxnKxWq/Iq7rKtyThr7dsJpJDLSYfsQCSegscK62Cc7/s3W2s/XOG1fiL/m+WQ1vrjJShWME40Asyc6jsWwTrDYPLHnWWJ5wrgjDGPpiCFHAaQOnoQXASfpYnlrTozMzM+MjIitx+bg7l167S/ms3mhEg8lxk3MjIi2oB10DrBah/Z4rruyzKwyLj5+fkspJDtCw7T8dlKpXLVIuOstaJFSFM/OkxAre5lUeK5yLh1i2kA8B8cAVbP9K4fBAAAAABJRU5ErkJggg=="/>
+    </pattern>
+    <pattern id="pattern-2" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 78 68">
+      <image width="78" height="68" xlink:href="data:image/png;base64,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"/>
+    </pattern>
+    <clipPath id="clip-path-2">
+      <circle id="타원_9" data-name="타원 9" class="cls-2" cx="60" cy="60" r="60" transform="translate(580 252)"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="사각형_22" data-name="사각형 22" class="cls-1" width="640" height="146" transform="translate(0 189)"/>
+    </clipPath>
+  </defs>
+  <g id="main_visual" transform="translate(-676.78 94.128)">
+    <g id="마스크_그룹_3" data-name="마스크 그룹 3" class="cls-3" transform="translate(254.947 174.92) rotate(-30)">
+      <rect id="Polygon_1_copy" data-name="Polygon 1 copy" class="cls-4" width="70.962" height="61.865" transform="translate(402.5 244.134)"/>
+      <rect id="Polygon_1" data-name="Polygon 1" class="cls-5" width="70.962" height="61.865" transform="translate(403 304.135)"/>
+    </g>
+    <g id="마스크_그룹_2" data-name="마스크 그룹 2" class="cls-6" transform="translate(740 -6)">
+      <rect id="사각형_21" data-name="사각형 21" class="cls-2" width="640" height="146" transform="translate(0 189)"/>
+    </g>
+    <g id="마스크_그룹_1" data-name="마스크 그룹 1" class="cls-7" transform="translate(740 -6)">
+      <rect id="Polygon_1_copy-2" data-name="Polygon 1 copy" class="cls-4" width="78" height="68" transform="translate(440.225 127.055) rotate(30)"/>
+    </g>
+    <path id="패스_43" data-name="패스 43" class="cls-8" d="M49,0H689" transform="translate(691 328.5)"/>
+    <path id="Rectangle_3" data-name="Rectangle 3" class="cls-9" d="M0,0H640V146.25H0Z" transform="translate(740 183)"/>
+    <text id="MINISTRY_OF_OCEANS_AND_FISHERIES" data-name="MINISTRY OF OCEANS AND FISHERIES" class="cls-10" transform="translate(778.5 239.833)"><tspan x="0" y="0">MINISTRY OF OCEANS AND FISHERIES</tspan></text>
+    <text id="해양수산부통계시스템" class="cls-11" transform="translate(778 289.833)"><tspan x="0" y="0">해양수산부</tspan><tspan class="cls-12" y="0">통계시스템</tspan></text>
+    <circle id="타원_10" data-name="타원 10" class="cls-2" cx="11" cy="11" r="11" transform="translate(1126 277)"/>
+    <circle id="타원_11" data-name="타원 11" class="cls-2" cx="23" cy="23" r="23" transform="translate(1278 210)"/>
+    <g id="baseline-desktop_windows-24px" transform="translate(1184 259)">
+      <line id="선_27" data-name="선 27" class="cls-13" y1="54" x2="161" transform="translate(-46.5 -25.5)"/>
+      <line id="선_26" data-name="선 26" class="cls-13" x2="31" y2="31" transform="translate(132.5 -12.5)"/>
+      <g id="baseline-desktop_windows-24px-2" data-name="baseline-desktop_windows-24px" transform="translate(-51.667 -57.667)">
+        <path id="패스_44" data-name="패스 44" class="cls-9" d="M0,0H115.333V115.333H0Z"/>
+        <path id="패스_45" data-name="패스 45" class="cls-14" d="M97.111,2h-86.5A9.639,9.639,0,0,0,1,11.611V69.278a9.639,9.639,0,0,0,9.611,9.611H44.25V88.5H34.639v9.611H73.083V88.5H63.472V78.889H97.111a9.639,9.639,0,0,0,9.611-9.611V11.611A9.639,9.639,0,0,0,97.111,2Zm0,67.278h-86.5V11.611h86.5Z" transform="translate(3.806 7.611)"/>
+      </g>
+      <g id="baseline-equalizer-24px" transform="translate(2.424 -12.576)">
+        <path id="패스_51" data-name="패스 51" class="cls-15" d="M20.25,47.333H31.083V4H20.25ZM4,47.333H14.833V25.667H4ZM36.5,17.542V47.333H47.333V17.542Z" transform="translate(-22.09 -22.09)"/>
+      </g>
+    </g>
+  </g>
+</svg>

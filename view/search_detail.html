@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>해양수산부 통계시스템</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="format-detection" content="telephone=no, address=no, email=no">
+        <meta name="description" content="해양수산부 모바일 통계시스템">
+        <link rel="shortcut icon" href="../public/images/favicon.ico">
+        <link rel="stylesheet" href="../public/css/reset.css" type="text/css">
+        <link rel="stylesheet" href="../public/css/all.css" type="text/css">
+        <link rel="stylesheet" href="../public/lib/bootstrap-3.3.7-dist/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="../public/css/layout.css?var=20180779" type="text/css">
+        <link rel="stylesheet" href="../public/css/template.css?var=20180719" type="text/css">
+
+        <script type="text/javascript" src="../public/lib/jquery-1.12.1.min.js"></script>
+        <script type="text/javascript" src="../public/lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    </head>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //header include
+            $("#header").load("../view/include/header.html")
+            $("#footer").load("../view/include/footer.html")
+        });
+    </script>
+
+	<body>
+		<div class="wrap">
+			<div class="skip_navigation">
+				<p>
+					<a href="#contents" title="본문 컨텐츠로 이동">» 메뉴 건너 뛰기</a>
+				</p>
+			</div>
+
+			<!-- header S -->
+			<header id="header">
+				<!-- TODO: 개발언어에 맞게 include 수정 -->
+			</header>
+			<!-- header E -->
+
+			<!-- contents S -->
+			<div id="contents">
+				<div id="breadcrumbs">
+					<ol class="breadcrumb">
+						<li>
+							<a href="javascript:history.go(-1)">이전</a>
+						</li>
+						<li class="active">통합검색</li>
+					</ol>
+				</div>
+
+				<div class="wrap_contents">
+					<h2>통합검색</h2>
+
+					<div class="" id="searchLayer">
+						<div class="wrap_layer">
+							<form name="" onsubmit="">
+								<fieldset>
+									<legend>통계 검색</legend>
+									<input type="text" name="" placeholder="검색어를 입력하세요" class="">
+									<button name="" type="button" class="btn_search_layer">
+										<i class="fa fa-search"></i> 검색</button>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+
+					<!-- TODO: 검색결과 없을때 노출 -->
+					<!-- <div class="no_search_results">
+						검색결과가 없습니다.
+					</div> -->
+
+					<div class="wrap_table wrap_list">
+						<table summary="통계 검색결과 목록입니다" class="table table_list table-striped">
+							<colgroup>
+								<col class="">
+							</colgroup>
+							<tbody>
+								<tr onclick="">
+									<td class="tal">
+										<p class="result_title">(20131030) 독도 주변서 해양쓰레기 17.3톤 수거</p>
+										<p class="result_step">
+											<span class="partition">승인통계(통계)</span>
+											<span class="partition">해시안전국 > 해시안정정책과</span>
+										</p>
+									</td>
+								</tr>
+								<tr onclick="">
+									<td class="tal">
+										<p class="result_title">항만 및 어항 설계기준·해설 공고</p>
+										<p class="result_step">
+											<span class="partition">승인통계(통계)</span>
+											<span class="partition">항만개발과</span>
+										</p>
+									</td>
+								</tr>
+								<tr onclick="">
+									<td class="tal">
+										<p class="result_title">해양수산부, 국가어항 신규 지정 추진</p>
+										<p class="result_step">
+											<span class="partition">승인통계(통계)</span>
+											<span class="partition">해양수산부 > 정보화담당관</span>
+										</p>
+									</td>
+								</tr>
+								<tr onclick="">
+									<td class="tal">
+										<p class="result_title">전국 바닷가 관광 정보를 책 한권에</p>
+										<p class="result_step">
+											<span class="partition">승인통계(통계)</span>
+											<span class="partition">해양수산부>정보화담당관</span>
+										</p>
+									</td>
+								</tr>
+								<tr onclick="">
+									<td class="tal">
+										<p class="result_title">완도 이목항, 수산?관광 중심어항으로 탈바꿈된다</p>
+										<p class="result_step">
+											<span class="partition">승인통계(통계)</span>
+											<span class="partition">해양수산부>정보화담당관</span>
+										</p>
+									</td>
+								</tr>
+								<tr onclick="">
+									<td class="tal">
+										<p class="result_title">아름다운 바다, 사진에 담아요</p>
+										<p class="result_step">
+											<span class="partition">승인통계(통계)</span>
+											<span class="partition">해양수산부>정보화담당관</span>
+										</p>
+									</td>
+								</tr>
+								<tr onclick="">
+									<td class="tal">
+										<p class="result_title">해수부, '제11회 어촌·어항·어장 사진 공모전' 개최</p>
+										<p class="result_step">
+											<span class="partition">승인통계(통계)</span>
+											<span class="partition">해양수산부>정보화담당관</span>
+										</p>
+									</td>
+								</tr>
+								<tr onclick="">
+									<td class="tal">
+										<p class="result_title">연안습지면적현황</p>
+										<p class="result_step">
+											<span class="partition">승인통계(통계)</span>
+											<span class="partition">해양수산부>정보화담당관</span>
+										</p>
+									</td>
+								</tr>
+								<tr onclick="">
+									<td class="tal">
+										<p class="result_title">원양어업 통계조사</p>
+										<p class="result_step">
+											<span class="partition">승인통계(통계)</span>
+											<span class="partition">해양수산부>정보화담당관</span>
+										</p>
+									</td>
+								</tr>
+								<tr onclick="">
+									<td class="tal">
+										<p class="result_title">수산업실태조사</p>
+										<p class="result_step">
+											<span class="partition">승인통계(통계)</span>
+											<span class="partition">해양수산부>정보화담당관</span>
+										</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<!-- pagination S -->
+					<div class="text-center">
+						<nav>
+							<ul class="pagination">
+								<li class="disabled">
+									<a href="#" aria-label="Previous">
+										<i class="fa fa-angle-left"></i>
+									</a>
+								</li>
+								<li class="active">
+									<a href="#">1</a>
+								</li>
+								<li>
+									<a href="#">2</a>
+								</li>
+								<li>
+									<a href="#" aria-label="Next">
+										<i class="fa fa-angle-right"></i>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!-- pagination E -->
+				</div>
+			</div>
+			<!-- contents E -->
+
+			<!-- footer S -->
+			<footer id="footer">
+				<!-- TODO: 개발언어에 맞게 include 수정 -->
+			</footer>
+			<!-- footer E -->
+		</div>
+	</body>
+</html>

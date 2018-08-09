@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>해양수산부 통계시스템</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="format-detection" content="telephone=no, address=no, email=no">
+		<meta name="description" content="해양수산부 모바일 통계시스템">
+		<link rel="shortcut icon" href="./public/images/favicon.ico">
+		<link rel="stylesheet" href="./public/css/reset.css" type="text/css">
+		<link rel="stylesheet" href="./public/css/all.css" type="text/css">
+		<link rel="stylesheet" href="./public/lib/bootstrap-3.3.7-dist/css/bootstrap.css" type="text/css">
+		<link rel="stylesheet" href="./public/css/layout.css?var=20180779" type="text/css">
+		<link rel="stylesheet" href="./public/css/template.css?var=20180719" type="text/css">
+
+		<script type="text/javascript" src="./public/lib/jquery-1.12.1.min.js"></script>
+		<script type="text/javascript" src="./public/lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="skip_navigation">
+				<p>
+					<a href="#contents" title="본문 컨텐츠로 이동">» 메뉴 건너 뛰기</a>
+				</p>
+			</div>
+
+			<!-- header S -->
+			<header id="header">
+				<div class="logo">
+					<a href="/" title="메인화면 바로가기">
+						<img src="./public/images/bi.svg" alt="해양수산부 통계시스템">
+					</a>
+				</div>
+
+				<div class="top_btn">
+					<ul>
+						<li class="search">
+							<a href="./view/search_detail.html" class="focus">
+								<img src="./public/images/btn_search.svg" alt="통계 검색버튼">
+							</a>
+						</li>
+						<li class="menu_toggle">
+							<button type="button" class="slide-menu-control" data-target="sideMenu" data-action="toggle">
+								<img src="./public/images/menu.svg" alt="전체 메뉴버튼">
+							</button>
+						</li>
+					</ul>
+				</div>
+
+				<!-- side menu S -->
+				<nav class="slide-menu" id="sideMenu">
+					<div class="nav_header">
+						<div class="btn_home_side">
+							<a href="/" title="메인화면 바로가기">
+								<img src="./public/images/icon_home.jpg" alt="홈 아이콘"> HOME
+							</a>
+						</div>
+
+						<div class="btn_close_side">
+							<button type="button" class="slide-menu-control" data-action="close">
+								<img src="./public/images/btn_close.svg" alt="메뉴닫기버튼">
+							</button>
+						</div>
+
+						<h2>해양수산부 통계시스템</h2>
+					</div>
+
+					<ul>
+						<li>
+							<a href="./view/information_use.html" title="이용안내 바로가기">
+								<span>이용안내</span>
+								<i class="fas fa-angle-right"></i>
+							</a>
+						</li>
+						<li>
+							<a href="./view/department_charge.html" title="담당부서 안내 바로가기">
+								<span>담당부서 안내</span>
+								<i class="fas fa-angle-right"></i>
+							</a>
+						</li>
+						<li>
+							<a href="./view/statistics_sector.html" title="분야별 통계 바로가기">
+								<span>분야별통계</span>
+								<i class="fas fa-angle-right"></i>
+							</a>
+						</li>
+						<li>
+							<a href="./view/country_approval_statistics.html" title="국가승인 통계 바로가기">
+								<span>국가승인통계</span>
+								<i class="fas fa-angle-right"></i>
+							</a>
+						</li>
+						<li>
+							<a href="./view/major_administrative_statistics.html" title="주요행정 통계 바로가기">
+								<span>주요행정통계</span>
+								<i class="fas fa-angle-right"></i>
+							</a>
+						</li>
+						<li>
+							<a href="./view/e_Country_index.html" title="e-나라지표 바로가기">
+								<span>e-나라지표</span>
+								<i class="fas fa-angle-right"></i>
+							</a>
+						</li>
+						<li>
+							<a href="./view/statistical_description.html" title="통계설명(메타) 바로가기">
+								<span>통계설명(메타)</span>
+								<i class="fas fa-angle-right"></i>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- side menu E -->
+
+				<!-- gnb S -->
+				<nav class="gnb">
+					<ul>
+						<li>
+							<a href="./view/information_use.html" title="이용안내 바로가기">이용안내</a>
+						</li>
+						<li>
+							<a href="./view/statistics_sector.html" title="분야별통계 바로가기">분야별통계</a>
+						</li>
+						<li>
+							<a href="./view/country_approval_statistics.html" title="국가승인 통계 바로가기">국가승인통계</a>
+							</li>
+							<li>
+								<a href="./view/major_administrative_statistics.html" title="주요행정 통계 바로가기">주요행정통계</a>
+							</li>
+							<li>
+								<a href="./view/e_Country_index.html" title="e-나라지표 바로가기">e-나라지표</a>
+							</li>
+						</li>
+					</ul>
+				</nav>
+				<!-- gnb E -->
+			</header>
+			<!-- header E -->
+
+			<!-- contents S -->
+			<div id="contents">
+				<div class="main_banner"></div>
+
+				<div class="main_list">
+					<ul>
+						<li>
+							<a href="#link00" title="" data-toggle="collapse" class="nowrap">
+								<span>지역별 등록선박 현황</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link00">
+								<div>
+									<a href="" title="">- 지역별 등록선박 현황</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link01" title="" data-toggle="collapse" class="nowrap">
+								<span>대분류별 업체수, 매출액, 종사자 등 현황</span>
+								<i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link01">
+								<div>
+									<a href="" title="">- 대분류별 업체수, 매출액, 종사자 등 현황</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link02" title="" data-toggle="collapse" class="nowrap">
+								<span>지역별, 품종별 양식어업권 면허 현황</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link02">
+								<div>
+									<a href="" title="">- 지역별, 품종별 양식어업권 면허 현황</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link03" title="" data-toggle="collapse" class="nowrap">
+								<span>지역별, 업종별 등록어선 현황</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link03">
+								<div>
+									<a href="" title="">- 지역별, 업종별 등록어선 현황</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link04" title="" data-toggle="collapse" class="nowrap">
+								<span>제품별, 지역별 생산량 및 생산액 현황</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link04">
+								<div>
+									<a href="" title="">- 제품별, 지역별 생산량 및 생산액 현황</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link05" title="" data-toggle="collapse" class="nowrap">
+								<span>중분류별 종사자, 매출액 등 현황</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link05">
+								<div>
+									<a href="" title="">- 중분류별 종사자, 매출액 등 현황</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link06" title="" data-toggle="collapse" class="nowrap">
+								<span>국적선 보유 현황</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link06">
+								<div>
+									<a href="" title="">- 국적선 보유 현황</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link07" title="" data-toggle="collapse" class="nowrap">
+								<span>지역별 선박 입,출항 현황</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link07">
+								<div>
+									<a href="" title="">- 지역별 선박 입,출항 현황</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link08" title="" data-toggle="collapse" class="nowrap">
+								<span>화물수송실적</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link08">
+								<div>
+									<a href="" title="">- 지역별 외ㆍ내항 화물 수송현황</a>
+								</div>
+								<div>
+									<a href="" title="">- 컨테이너 수송 현황</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link09" title="" data-toggle="collapse" class="nowrap">
+								<span>해양사고 현황</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link09">
+								<div>
+									<a href="" title="">- 유형별 해양사고 발생현황</a>
+								</div>
+								<div>
+									<a href="" title="">- 선박용도별 해양사고 발생현황</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+
+					<ul>
+						<li>
+							<a href="#link10" title="" data-toggle="collapse" class="nowrap">
+								<span>수산물검역 및 수출검사통계</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link10">
+								<div>
+									<a href="" title="">- 국가별 수출입 검사, 검역 실적</a>
+								</div>
+								<div>
+									<a href="" title="">- 품종별 수출입 검사, 검역 실적</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link11" title="" data-toggle="collapse" class="nowrap">
+								<span>시도별 연안습지(갯벌) 면적</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link11">
+								<div>
+									<a href="" title="">- 시도별 연안습지(갯벌) 면적</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link12" title="" data-toggle="collapse" class="nowrap">
+								<span>원양어업 통계조사</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link12">
+								<div>
+									<a href="" title="">- 국가별, 품종별 생산현황</a>
+								</div>
+								<div>
+									<a href="" title="">- 국가별, 품종별 수출현황</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link13" title="" data-toggle="collapse" class="nowrap">
+								<span>어가 및 어가인구</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link13">
+								<div>
+									<a href="" title="">- 어가 및 어가인구</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link14" title="" data-toggle="collapse" class="nowrap">
+								<span>어업생산동향조사</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link14">
+								<div>
+									<a href="" title="">- 지역별 어업생산량 총괄</a>
+								</div>
+								<div>
+									<a href="" title="">- 부류별 어업생산량 총괄</a>
+								</div>
+								<div>
+									<a href="" title="">- 품종별 어업생산량 총괄</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link15" title="" data-toggle="collapse" class="nowrap">
+								<span>어류양식동향조사</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link15">
+								<div>
+									<a href="" title="">- 지역별 양식현황 총괄</a>
+								</div>
+								<div>
+									<a href="" title="">- 양식방법별 어가 현황</a>
+								</div>
+								<div>
+									<a href="" title="">- 양식방법별 면적 현황</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link16" title="" data-toggle="collapse" class="nowrap">
+								<span>나라지표</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link16">
+								<div>
+									<a href="" title="">- 전국연안 및 특별관리해역 수질 현황</a>
+								</div>
+								<div>
+									<a href="" title="">- 어가 소득 현황</a>
+								</div>
+								<div>
+									<a href="" title="">- 어업생산량 및 양식량</a>
+								</div>
+								<div>
+									<a href="" title="">- 국내여객 수송실적</a>
+								</div>
+								<div>
+									<a href="" title="">- 국적선원 취업현황</a>
+								</div>
+								<div>
+									<a href="" title="">- 주요 해운 선진국의 지배선대 현황</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link17" title="" data-toggle="collapse" class="nowrap">
+								<span>해양분야 주요통계</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link17">
+								<div>
+									<a href="" title="">- 시도별 해수욕장, 레저선박 등록 현황</a>
+								</div>
+								<div>
+									<a href="" title="">- 해양쓰레기 수거ㆍ처리실적</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#link18" title="" data-toggle="collapse" class="nowrap">
+								<span>수산분야 주요통계</span> <i class="fas fa-angle-right"></i>
+							</a>
+							<div class="collapse" id="link18">
+								<div>
+									<a href="" title="">- 품목별 수산물 수출입 통계</a>
+								</div>
+								<div>
+									<a href="" title="">- 수산물 수급 현황</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- contents E -->
+
+			<!-- footer S -->
+			<footer id="footer">
+				<div class="view_sort">
+					<ul>
+						<li>
+							<a href="/" title="메인화면 바로가기"><img src="./public/images/icon_home_s.jpg" alt="홈 아이콘"> HOME</a>
+						</li>
+						<li>
+							<a href="https://www.mof.go.kr/statPortal/" title="PC버전으로 보기"><img src="./public/images/icon_desktop.jpg" alt="pc 아이콘"> PC버전</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="address">
+					<address>
+						30110 세종특별자치시 다솜2로 94 정부세종청사 5동<br>
+						해양수산부 정보화담당관실 <a href="tel:044-200-5179">044-200-5179</a><br>
+						콜센터 통계 담당 <a href="tel:044-200-5497">044-200-5497</a>
+					</address>
+					<p>Copyright@2018 Ministry of Oceans and Fisheries. All Rights Reserved</p>
+				</div>
+			</footer>
+			<!-- footer E -->
+
+			<script type="text/javascript" src="./public/lib/side-menu/slide-menu.js"></script>
+
+			<script>
+			$(document).ready(function () {
+				//메인 리스트 아이콘 토글
+				$('.nowrap').click(function(){
+					$('i', this).toggleClass('fa-angle-right fa-angle-down');
+				});
+
+				// 사이드메뉴
+				var menuLeft = $('#sideMenu').slideMenu({
+					position: 'left',
+					submenuLinkAfter: ' >',
+					backLinkBefore: '< '
+				});
+			});
+			</script>
+
+			<script>
+			// 푸터 높이를 구해서 wrap에 높이만큼 패딩을 주어 하단에 고정
+			$(window).bind("load resize", function () {
+				var	footerHeight = 0,
+					footerTop = 0,
+					footer = $("#footer");
+					wrap = $(".wrap");
+				positionFooter();
+
+				function positionFooter() {
+					footerHeight = footer.height();
+					footerTop = ($(window).height() - $("body").height() + footerHeight) + "px";
+					wrapBottom = (footerHeight) + "px";
+					footer.css({ height: footerTop })
+					wrap.css({ paddingBottom: wrapBottom })
+				}
+				$(window).resize(positionFooter);
+			});
+			</script>
+		</div>
+	</body>
+</html>

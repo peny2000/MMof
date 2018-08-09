@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>해양수산부 통계시스템</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="format-detection" content="telephone=no, address=no, email=no">
+        <meta name="description" content="해양수산부 모바일 통계시스템">
+        <link rel="shortcut icon" href="../public/images/favicon.ico">
+        <link rel="stylesheet" href="../public/css/reset.css" type="text/css">
+        <link rel="stylesheet" href="../public/css/all.css" type="text/css">
+        <link rel="stylesheet" href="../public/lib/bootstrap-3.3.7-dist/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="../public/css/layout.css?var=20180779" type="text/css">
+        <link rel="stylesheet" href="../public/css/template.css?var=20180719" type="text/css">
+
+        <script type="text/javascript" src="../public/lib/jquery-1.12.1.min.js"></script>
+        <script type="text/javascript" src="../public/lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    </head>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //header include
+            $("#header").load("../view/include/header.html")
+            $("#footer").load("../view/include/footer.html")
+        });
+    </script>
+
+	<body>
+		<div class="wrap">
+			<div class="skip_navigation">
+				<p>
+					<a href="#contents" title="본문 컨텐츠로 이동">» 메뉴 건너 뛰기</a>
+				</p>
+			</div>
+
+			<!-- header S -->
+			<header id="header">
+				<!-- TODO: 개발언어에 맞게 include 수정 -->
+			</header>
+			<!-- header E -->
+
+			<!-- contents S -->
+			<div id="contents">
+				<div id="breadcrumbs">
+					<ol class="breadcrumb">
+						<li>
+							<a href="javascript:history.go(-1)">이전</a>
+						</li>
+						<li class="active">이용안내</li>
+					</ol>
+				</div>
+
+				<div class="wrap_contents">
+					<h2>이용안내</h2>
+
+					<div class="text_section_info">
+						<ul>
+							<li class="info_emphasis">안녕하십니까? <span class="tel_point">해양수산부 통계시스템</span>입니다.</li>
+							<li class="info_emphasis_eng">WELCOME to MINISTRY OF OCEANS AND FISHERIES</li>
+							<li>해양수산부에서는 부처신설에 따라 해양과 수산으로 분리되어 제공되던 통계정보를 한 곳으로 통합하여 한번의 접속으로 해양수산분야의 다양한 통계정보를 이용할 수 있도록 <span class="tel_point">해양수산통계포털</span>을 구축하였습니다.
+							<br><br>
+							해양수산통계포털에서는 국가승인통계, 행정통계, 통계관련 보도자료 등 다양한 정보를 제공하고 있으니 많은 관심 부탁드립니다. <br><br>
+							앞으로도 해양수산통계의 개발 · 개선 및 통계수요자의 요구를 반영한 통계포털	운영을 위해 최선을 다할 것입니다. <br><br>
+							아울러 통계포털에 대한 개선의견이 있으시면 해양수산부 정보화담당관 통계담당 <span class="tel_point">☎ 044-200-5179</span>으로 의견을 주시면 적극 반영하도록 하겠습니다.</li>
+							<li class="info_sign">해양수산부 통계시스템</li>
+						</ul>
+					</div>
+
+					<div>
+						<div class="text_section_step">
+							<dl class="normal_depth_01">
+								<dt>통계 조회 이용 방법</dt>
+								<dd>
+									해양수산 통계 시스템은 통계 데이터를 활용하는 다양한 방법을 제공합니다. 통계 솔루션을 통한 데이터 피벗 및 차트 활용을 제공합니다.
+								</dd>
+							</dl>
+						</div>
+
+						<div class="nav_tab_center">
+							<ul class="nav nav-tabs nav-justified">
+								<li class="active">
+									<a href="#guideStatistics" data-toggle="tab">통계표 이용안내</a>
+								</li>
+								<li>
+									<a href="#guideMeta" data-toggle="tab">메타정보 이용안내</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="tab-content">
+							<!-- 통계표 이용안내 S -->
+							<div class="tab-pane active" id="guideStatistics">
+								<div class="text_section_step">
+									<dl class="normal_depth_01">
+										<dt>화면 설명</dt>
+										<dd>
+											<img src="../public/images/statistical_guide.jpg" alt="화면설명 안내 이미지">
+										</dd>
+									</dl>
+								</div>
+
+								<div class="text_section_step">
+									<dl class="normal_depth_01">
+										<dt>화면 기능 설명</dt>
+										<dd class="normal_depth_02">
+											<ul>
+												<li class="title_depth">
+													<i class="badge badge-warning">1</i> 통계명칭
+												</li>
+												<li>
+													사용자가 화면에서 조회된 통계 명칭을 보여줍니다.
+												</li>
+												<li class="normal_depth_03">
+													<b>• </b> 통계 명칭 구성 : “한글 통계명(영문 통계명)”
+												</li>
+											</ul>
+
+											<ul>
+												<li class="title_depth">
+													<i class="badge badge-warning">2</i> 통계 화면의 조회 대상
+												</li>
+												<li>
+													해당 통계와 관련된 내용을 보여줍니다.
+												</li>
+												<li class="normal_depth_03">
+													<b>• </b> 통계표 : 해당 통계에 속한 통계표 목록과 선택한 통계표에 대한 데이터 조회 결과를 보여줍니다.
+												</li>
+												<li class="normal_depth_03">
+													<b>• </b> 메타정보 : 해당 통계에 대한 메타정보 ( 통계 속성정보 )를 보여줍니다.
+												</li>
+											</ul>
+
+											<ul>
+												<li class="title_depth">
+													<i class="badge badge-warning">3</i> 통계표 목록
+												</li>
+												<li>
+													통계표 목록을 보여줍니다.
+												</li>
+												<li class="normal_depth_03">
+													<b>• </b> 통계표 공표주기
+												</li>
+												<li class="cycle_icon">
+													<ul>
+														<li>
+															<i class="badge badge-y">Y</i> 매년</li>
+														<li>
+															<i class="badge badge-m">M</i> 매월</li>
+														<li>
+															<i class="badge badge-q">Q</i> 매분기</li>
+														<li>
+															<i class="badge badge-h">H</i> 매반기</li>
+														<li>
+															<i class="badge badge-3y">3Y</i> 3년주기</li>
+														<li>
+															<i class="badge badge-5y">5Y</i> 5년주기</li>
+														<li>
+															<i class="badge badge-d">D</i> 매일</li>
+													</ul>
+												</li>
+											</ul>
+
+											<ul>
+												<li class="title_depth">
+													<i class="badge badge-warning">4</i> 통계표 명칭
+												</li>
+												<li>
+													통계표 목록을 보여줍니다.
+												</li>
+												<li class="normal_depth_03">
+													<b>• </b> 통계표 명칭 구성 : 통계 분야 / 통계명 / 통계표명
+												</li>
+											</ul>
+
+											<ul>
+												<li class="title_depth">
+													<i class="badge badge-warning">5</i> 조회 조건
+												</li>
+												<li>
+													선택된 통계를 검색하기 위한 조건을 지정합니다.
+												</li>
+												<li class="normal_depth_03">
+													<b>• </b> 기간선택(기간구분명) : 통계표를 조회하기 위한 시계열 범위를 지정합니다.
+												</li>
+												<li class="normal_depth_03">
+													<b>• </b> 양식 선택 : 통계표 양식 유형을 보여줍니다.
+												</li>
+												<li class="normal_depth_04">
+													해당 통계표에 대한 양식이 변화한 경우 양식은 1개 이상 보여줍니다.
+												</li>
+												<li>
+													양식을 선택하면, 해당 양식으로 입력된 통계표의 시계열을 ‘기간선택(기간구분명)’에 보여줍니다.
+												</li>
+											</ul>
+
+											<ul>
+												<li class="title_depth">
+													<i class="badge badge-warning">6</i> 통계표 조회 결과
+												</li>
+												<li>
+													선택된 통계표의 조회 결과를 보여줍니다.
+												</li>
+												<li class="normal_depth_03">
+													<b>• </b> 버튼 설명
+												</li>
+												<li class="normal_depth_04">
+													<div class="btn_fix center">
+														<div class="btn_group">
+															<ul class="info_btn">
+																<li>
+																	<span class="btn btn_default">
+																		<i class="far fa-file-excel"></i> Excel
+																	</span>
+																	조회된 통계표 내용을 엑셀로 저장합니다.
+																</li>
+																<li>
+																	<span class="btn btn_default">
+																		<i class="fa fa-search"></i> 검색
+																	</span>
+																	선택된 조회조건으로 통계표를 조회합니다.
+																</li>
+															</ul>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</dd>
+									</dl>
+								</div>
+							</div>
+							<!-- 통계표 이용안내 E -->
+
+							<!-- 메타정보 이용안내 S -->
+							<div class="tab-pane" id="guideMeta">
+								<div class="text_section_step">
+									<dl class="normal_depth_01">
+										<dt>화면 설명</dt>
+										<dd>
+											<img src="../public/images/statistical_guide02.jpg" alt="화면설명 안내 이미지">
+										</dd>
+									</dl>
+								</div>
+
+								<div class="text_section_step">
+									<dl class="normal_depth_01">
+										<dt>화면 기능 설명</dt>
+										<dd class="normal_depth_02">
+											<ul>
+												<li class="title_depth">
+													<i class="badge badge-warning">1</i> 통계명칭
+												</li>
+												<li>
+													사용자가 화면에서 조회된 통계 명칭을 보여줍니다.
+												</li>
+												<li class="normal_depth_03">
+													<b>• </b> 통계 명칭 구성 : “한글 통계명(영문 통계명)”
+												</li>
+											</ul>
+
+											<ul>
+												<li class="title_depth">
+													<i class="badge badge-warning">2</i> 통계 화면의 조회 대상
+												</li>
+												<li>
+													해당 통계와 관련된 내용을 보여줍니다.
+												</li>
+												<li class="normal_depth_03">
+													<b>• </b> 통계표 : 해당 통계에 속한 통계표 목록과 선택한 통계표에 대한 데이터 조회 결과를 보여줍니다.
+												</li>
+												<li class="normal_depth_03">
+													<b>• </b> 메타정보 : 해당 통계에 대한 메타정보 ( 통계 속성정보 )를 보여줍니다.
+												</li>
+											</ul>
+
+											<ul>
+												<li class="title_depth">
+													<i class="badge badge-warning">3</i> 통계 개요
+												</li>
+												<li>
+													해당 통계에 대한 메타정보를 보여줍니다.
+												</li>
+											</ul>
+										</dd>
+									</dl>
+								</div>
+							</div>
+							<!-- 메타정보 이용안내 E -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- contents E -->
+
+			<!-- footer S -->
+			<footer id="footer">
+				<!-- TODO: 개발언어에 맞게 include 수정 -->
+			</footer>
+			<!-- footer E -->
+		</div>
+	</body>
+</html>

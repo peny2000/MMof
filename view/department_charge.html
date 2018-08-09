@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>해양수산부 통계시스템</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="format-detection" content="telephone=no, address=no, email=no">
+        <meta name="description" content="해양수산부 모바일 통계시스템">
+        <link rel="shortcut icon" href="../public/images/favicon.ico">
+        <link rel="stylesheet" href="../public/css/reset.css" type="text/css">
+        <link rel="stylesheet" href="../public/css/all.css" type="text/css">
+        <link rel="stylesheet" href="../public/lib/bootstrap-3.3.7-dist/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="../public/css/layout.css?var=20180779" type="text/css">
+        <link rel="stylesheet" href="../public/css/template.css?var=20180719" type="text/css">
+
+        <script type="text/javascript" src="../public/lib/jquery-1.12.1.min.js"></script>
+        <script type="text/javascript" src="../public/lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    </head>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //header include
+            $("#header").load("../view/include/header.html")
+            $("#footer").load("../view/include/footer.html")
+        });
+    </script>
+
+	<body>
+		<div class="wrap">
+			<div class="skip_navigation">
+				<p>
+					<a href="#contents" title="본문 컨텐츠로 이동">» 메뉴 건너 뛰기</a>
+				</p>
+			</div>
+
+			<!-- header S -->
+			<header id="header">
+				<!-- TODO: 개발언어에 맞게 include 수정 -->
+			</header>
+			<!-- header E -->
+
+			<!-- contents S -->
+			<div id="contents">
+				<div id="breadcrumbs">
+					<ol class="breadcrumb">
+						<li>
+							<a href="javascript:history.go(-1)">이전</a>
+						</li>
+						<li class="active">담당부서 안내</li>
+					</ol>
+				</div>
+
+				<div class="wrap_contents">
+					<h2>담당부서 안내</h2>
+					<div class="title_add fz13">
+						<div class="title_add_left">통계에 대한 부서 목록</div>
+
+						<div class="title_add_right">
+							총<i class="badge badge-success">18</i>건 / <i class="badge badge-success">1/2</i>페이지
+						</div>
+					</div>
+
+					<div class="wrap_table wrap_list">
+						<table summary="통계 담당부서 목록입니다" class="table table_list table-striped">
+							<colgroup>
+								<col class="">
+								<col class="">
+								<col class="">
+								<col class="">
+							</colgroup>
+							<thead>
+								<tr>
+									<th>번호</th>
+									<th>통계명</th>
+									<th>담당부서</th>
+									<th>연락처</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr onclick="">
+									<td>1</td>
+									<td class="tal">해양산업통계조사</td>
+									<td>해양정책과</td>
+									<td>044-200-5229</td>
+								</tr>
+								<tr onclick="">
+									<td>2</td>
+									<td class="tal">해수수질실태보고</td>
+									<td>해양정책과</td>
+									<td>044-200-5229</td>
+								</tr>
+								<tr onclick="">
+									<td>3</td>
+									<td class="tal">연안습지면적현황</td>
+									<td>해양정책과</td>
+									<td>044-200-5229</td>
+								</tr>
+								<tr onclick="">
+									<td>4</td>
+									<td class="tal">원양어업 통계조사</td>
+									<td>해양정책과</td>
+									<td>044-200-5229</td>
+								</tr>
+								<tr onclick="">
+									<td>5</td>
+									<td class="tal">수산업실태조사</td>
+									<td>해양정책과</td>
+									<td>044-200-5229</td>
+								</tr>
+								<tr onclick="">
+									<td>6</td>
+									<td class="tal">해양산업통계조사</td>
+									<td>해양정책과</td>
+									<td>044-200-5229</td>
+								</tr>
+								<tr onclick="">
+									<td>7</td>
+									<td class="tal">해수수질실태보고</td>
+									<td>해양정책과</td>
+									<td>044-200-5229</td>
+								</tr>
+								<tr onclick="">
+									<td>8</td>
+									<td class="tal">연안습지면적현황</td>
+									<td>해양정책과</td>
+									<td>044-200-5229</td>
+								</tr>
+								<tr onclick="">
+									<td>9</td>
+									<td class="tal">원양어업 통계조사</td>
+									<td>해양정책과</td>
+									<td>044-200-5229</td>
+								</tr>
+								<tr onclick="">
+									<td>10</td>
+									<td class="tal">수산업실태조사</td>
+									<td>해양정책과</td>
+									<td>044-200-5229</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<!-- pagination S -->
+					<div class="text-center">
+						<nav>
+							<ul class="pagination">
+								<li class="disabled">
+									<a href="#" aria-label="Previous">
+										<i class="fa fa-angle-left"></i>
+									</a>
+								</li>
+								<li class="active">
+									<a href="#">1</a>
+								</li>
+								<li>
+									<a href="#">2</a>
+								</li>
+								<li>
+									<a href="#">3</a>
+								</li>
+								<li>
+									<a href="#">4</a>
+								</li>
+								<li>
+									<a href="#">5</a>
+								</li>
+								<li>
+									<a href="#" aria-label="Next">
+										<i class="fa fa-angle-right"></i>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!-- pagination E -->
+				</div>
+			</div>
+			<!-- contents E -->
+
+			<!-- footer S -->
+			<footer id="footer">
+				<!-- TODO: 개발언어에 맞게 include 수정 -->
+			</footer>
+			<!-- footer E -->
+		</div>
+	</body>
+</html>

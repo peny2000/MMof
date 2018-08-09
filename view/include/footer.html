@@ -1,0 +1,43 @@
+<div class="view_sort">
+    <ul>
+        <li>
+            <a href="/" title="메인화면 바로가기">
+                <img src="../public/images/icon_home_s.jpg" alt="홈 아이콘"> HOME</a>
+        </li>
+        <li>
+            <a href="https://www.mof.go.kr/statPortal/" title="PC버전으로 보기">
+                <img src="../public/images/icon_desktop.jpg" alt="pc 아이콘"> PC버전</a>
+        </li>
+    </ul>
+</div>
+
+<div class="address">
+    <address>
+        30110 세종특별자치시 다솜2로 94 정부세종청사 5동
+        <br> 해양수산부 정보화담당관실
+        <a href="tel:044-200-5179">044-200-5179</a>
+        <br> 콜센터 통계 담당
+        <a href="tel:044-200-5497">044-200-5497</a>
+    </address>
+    <p>Copyright@2018 Ministry of Oceans and Fisheries. All Rights Reserved</p>
+</div>
+
+<script>
+    // 푸터 높이를 구해서 wrap에 높이만큼 패딩을 주어 하단에 고정
+    $(window).bind("load resize", function () {
+        var footerHeight = 0,
+            footerTop = 0,
+            footer = $("#footer");
+        wrap = $(".wrap");
+        positionFooter();
+
+        function positionFooter() {
+            footerHeight = footer.height();
+            footerTop = ($(window).height() - $("body").height() + footerHeight) + "px";
+            wrapBottom = (footerHeight) + "px";
+            footer.css({ height: footerTop })
+            wrap.css({ paddingBottom: wrapBottom })
+        }
+        $(window).resize(positionFooter);
+    });
+</script>
